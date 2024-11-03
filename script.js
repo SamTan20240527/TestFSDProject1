@@ -1,5 +1,5 @@
 // Fetch data from data.json using Axios
-axios.get('data.json')
+axios.get('https://raw.githubusercontent.com/SamTan20240527/TestFSDProject1/refs/heads/main/data.json')
   .then(response => {
     const data = response.data;
 
